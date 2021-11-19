@@ -356,11 +356,11 @@ body {
   margin: auto;
 }
 
-.header {
+.navbar {
   background-color: #fff;
 }
 
-.header-top {
+.navbar-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -374,7 +374,7 @@ body {
   padding-bottom: 40px;
 }
 
-.header__search {
+.navbar__search {
   margin-right: auto;
   margin-left: 108px;
 }
@@ -437,11 +437,11 @@ body {
   color: #333333;
 }
 
-.header-block {
+.navbar-block {
   background-color: #0A223D;
 }
 
-.header-menu {
+.navbar-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,12 +457,12 @@ body {
   text-transform: uppercase;
 }
 
-.header-menu__item {
+.navbar-menu__item {
   list-style: none;
   text-align: center;
 }
 
-.header-menu__link {
+.navbar-menu__link {
   text-decoration: none;
   color: white;
 }
