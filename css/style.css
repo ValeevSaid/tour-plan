@@ -507,7 +507,7 @@ img {
 }
 
 .hotel {
-  padding-top: 23px;
+  padding-top: 13px;
   padding-bottom: 70px;
 }
 
@@ -524,17 +524,17 @@ img {
 }
 
 .hotel-info__offer {
-  margin-left: 14px;
-  margin-top: 4px;
+  margin-left: 16px;
+  margin-top: 5px;
 }
 
 .hotel-info__name {
-  margin-top: 4px;
+  margin-top: 5px;
   margin-bottom: 0;
 }
 
-.hotel-info__descrition {
-  margin: 5px 0;
+.hotel-info__description {
+  margin: 1px 0;
 }
 
 .hotel-name {
@@ -556,7 +556,6 @@ img {
 
 .hotel-description {
   font-size: 12px;
-  line-height: 15px;
 }
 
 .stars {
@@ -592,6 +591,10 @@ img {
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
+}
+
+.rating__counter_small {
+  font-size: 10px;
 }
 
 @media (max-width: 1200px) {
