@@ -1,7 +1,7 @@
 @media (max-width:1200px)
     .container
         max-width: 960px
-    .slider
+    .hotel__slider
         width: 590px
     .swiper
         &-slide
@@ -21,16 +21,18 @@
             padding-top: 30px
             padding-bottom: 30px
         &__search
-            margin-left: auto
+            margin-left: 47px
         &-menu
-            padding-top: 22px
-            padding-bottom: 22px
+            padding-top: 20px
+            padding-bottom: 20px
+            justify-content: space-around
             &__link
                 font-size: 12px
                 line-height: 15px
     .search
         &__input
-            width: 320px
+            max-width: 340px
+            
     
     .hotel
         &-grid
@@ -43,8 +45,47 @@
         width: 340px
     .map 
         width: 340px
-    .slider
+    .hotel__slider
         width: 100%
+    .newsletter
+        padding: 72px 0 87px 0
+    .reviews
+        padding: 25px 0 70px 0
+        &__title
+            font-family: Mulish
+            font-style: normal
+            font-weight: bold
+            font-size: 30px
+            line-height: 38px
+            text-align: center
+            text-transform: uppercase
+            margin-bottom: 50px
+        &-slider
+            &__item
+                display: flex
+                flex-direction: column
+                align-items: center
+                max-width: 579px
+                    
+            &__button
+                position: absolute
+                top: 43%
+                transform: translateY(-50%)
+                width: 30px
+                height: 30px
+                background-repeat: no-repeat
+                background-size: 10px
+                background-position: center
+                border: none
+                background-color: transparent
+                cursor: pointer
+                z-index: 99
+                &--prev
+                    background-image: url(../img/arrow-prev-primary.svg)
+                    left: 3px
+                &--next
+                    background-image: url(../img/arrow-next-primary.svg)
+                    right: 3px
     
 
 
@@ -71,27 +112,28 @@
                 order: -1
                 margin-left: 0
     
-    .slider
+    .hotel__slider
         height: 350px
     .hotel-right
         flex-direction: column
         min-height: 450px
     .booking
-        width: 100%
+        max-width: 100%
     .map
-        width: 100%
+        max-width: 100%
     .newsletter
         &-wrapper
             max-width: 576px
             width: 95%
             align-items: flex-start
             flex-direction: column
+    
         
 @media (max-width:576px)     
     .navbar
         &__search, &-menu, &__user
             display: none
-        
+          
     .menu
         &-button
             width: 16px
@@ -110,8 +152,8 @@
                 background-color: $text-color
     .logo
         width: 99px 
-    .slider
-        height: 250px
+    .hotel__slider
+        height: 180px
     .hotel
         &__slider
             margin-bottom: 20px
@@ -120,8 +162,28 @@
         &__title
             margin-bottom: 37px
     .subscrube
-        width: 100%
+        max-width: 280px  
     
+@media (max-width:320px)
+    .container
+        max-width: 95%
+    .reviews
+        padding: 25px 0 70px 0
+        &__title
+            font-family: Mulish
+            font-style: normal
+            font-weight: bold
+            font-size: 30px
+            line-height: 38px
+            text-align: center
+            text-transform: uppercase
+            margin-bottom: 50px
+        &-slider
+            &__item
+                display: flex
+                flex-direction: column
+                align-items: center
+                width: 281px
 
         
     
